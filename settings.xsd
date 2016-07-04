@@ -22,7 +22,7 @@
                     </xs:simpleType>
                    </xs:element>
                     <xs:element name="seat_number">
-                      <xs:simpleType >
+                      <xs:simpleType>
                         <xs:restriction base="xs:byte">
                           <xs:minInclusive value="1"/>
                           <xs:maxInclusive value="2"/>
@@ -33,7 +33,7 @@
                       <xs:complexType>
                         <xs:sequence>
                           <xs:element  name="missile_number">
-                            <xs:simpleType >
+                            <xs:simpleType>
                               <xs:restriction base="xs:int">
                                 <xs:minInclusive value="0"/>
                                 <xs:maxInclusive value="10"/>
